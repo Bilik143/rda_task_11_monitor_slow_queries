@@ -10,11 +10,6 @@ CREATE TABLE Products1 (
     PRIMARY KEY (ID)
 ) ENGINE=InnoDB;
 
-CREATE TABLE Products2 (
-    ID INT AUTO_INCREMENT,
-    Name VARCHAR(50),
-    PRIMARY KEY (ID)
-) ENGINE=MyISAM;
 
 -- Create test data in Products1 table 
 INSERT INTO Products1 (Name)
@@ -137,7 +132,3 @@ INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct59'); 
 INSERT INTO Products1 (Name)
 	VALUES ('AwersomeProduct60'); 
-
-
--- Create test data in Products2 table
--- Products2 table and its test data removed (used by slow query)
